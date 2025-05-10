@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.chuong3.ui.home.HomeFragment"
+        android:label="CHƯƠNG 3"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_lv"
+        android:name="com.example.chuong3.ui.listview.lvFragment"
+        android:label="ListView"
+        tools:layout="@layout/fragment_lv" />
+    <fragment
+        android:id="@+id/nav_sn"
+        android:name="com.example.chuong3.ui.spinner.snFragment"
+        android:label="Spinner"
+        tools:layout="@layout/fragment_sn" />
+    <fragment
+        android:id="@+id/nav_sd"
+        android:name="com.example.chuong3.ui.slidingdrawer.sdFragment"
+        android:label="SlidingDrawer"
+        tools:layout="@layout/fragment_sd"/>
+    <fragment
+        android:id="@+id/nav_ac"
+        android:name="com.example.chuong3.ui.autocomplete.acFragment"
+        android:label="Autocomplete"
+        tools:layout="@layout/fragment_ac"/>
+    <fragment
+        android:id="@+id/nav_tv"
+        android:name="com.example.chuong3.ui.textview.tvFragment"
+        android:label="TextView"
+        tools:layout="@layout/fragment_tv"/>
+    <fragment
+        android:id="@+id/nav_gv"
+        android:name="com.example.chuong3.ui.gridview.gvFragment"
+        android:label="GridView"
+        tools:layout="@layout/fragment_gr"/>
+    <fragment
+        android:id="@+id/nav_times"
+        android:name="com.example.chuong3.ui.times.timesFragment"
+        android:label="Time Selection"
+        tools:layout="@layout/fragment_times"/>
+    <fragment
+        android:id="@+id/nav_pg"
+        android:name="com.example.chuong3.ui.picturegallery.pgFragment"
+        android:label="Picture Gallery"
+        tools:layout="@layout/fragment_pg"/>
+    <fragment
+        android:id="@+id/nav_tabs"
+        android:name="com.example.chuong3.ui.tabselector.tabsFragment"
+        android:label="Tab Selector"
+        tools:layout="@layout/fragment_tabs"/>
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.chuong3.ui.menu.menuFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu"/>
+    <fragment
+        android:id="@+id/nav_cl"
+        android:name="com.example.chuong3.ui.customlayout.clFragment"
+        android:label="Custom Layout"
+        tools:layout="@layout/fragment_cl"/>
+    <fragment
+        android:id="@+id/nav_wk"
+        android:name="com.example.chuong3.ui.webkit.wkFragment"
+        android:label="Webkit"
+        tools:layout="@layout/fragment_wk"/>
+    <fragment
+        android:id="@+id/nav_ei"
+        android:name="com.example.chuong3.ui.explicit.eiFragment"
+        android:label="Explicit Intent"
+        tools:layout="@layout/fragment_ei"/>
+    <fragment
+        android:id="@+id/nav_ii"
+        android:name="com.example.chuong3.ui.implicit.iiFragment"
+        android:label="Explicit Intent"
+        tools:layout="@layout/fragment_ii"/>
+    <fragment
+        android:id="@+id/nav_gr"
+        android:name="com.example.chuong3.ui.gettingresults.grFragment"
+        android:label="Getting results từ intent"
+        tools:layout="@layout/fragment_gr"/>
+</navigation>

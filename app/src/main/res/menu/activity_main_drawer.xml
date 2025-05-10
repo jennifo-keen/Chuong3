@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="CHƯƠNG 3" />
+    </group>
+    <item android:title="Advanced Controls">
+        <menu>
+            <item
+                android:id="@+id/nav_lv"
+                android:title="ListView"
+                android:icon="@drawable/ic_menu_slideshow"/>
+
+            <item
+                android:id="@+id/nav_sn"
+                android:title="Spinner"
+                android:icon="@drawable/ic_menu_slideshow"/>
+
+            <item
+                android:id="@+id/nav_sd"
+                android:title="SlidingDrawer"
+                android:icon="@drawable/ic_menu_slideshow"/>
+            <item
+                android:id="@+id/nav_ac"
+                android:title="Autocomplete"
+                android:icon="@drawable/ic_menu_slideshow"/>
+            <item
+                android:id="@+id/nav_tv"
+                android:title="TextView"
+                android:icon="@drawable/ic_menu_slideshow"/>
+            <item
+                android:id="@+id/nav_gv"
+                android:title="Gridview"
+                android:icon="@drawable/ic_menu_slideshow"/>
+            <item
+                android:id="@+id/nav_times"
+                android:title="Time Selection"
+                android:icon="@drawable/ic_menu_slideshow"/>
+            <item
+                android:id="@+id/nav_pg"
+                android:title="Picture Gallery"
+                android:icon="@drawable/ic_menu_slideshow"/>
+            <item
+                android:id="@+id/nav_tabs"
+                android:title="Tab selector"
+                android:icon="@drawable/ic_menu_slideshow"/>
+            <item
+                android:id="@+id/nav_menu"
+                android:title="Menu"
+                android:icon="@drawable/ic_menu_slideshow"/>
+        </menu>
+    </item>
+    <item android:title="Giao diện">
+        <menu>
+        <item
+            android:id="@+id/nav_cl"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Custom layout" />
+        <item
+            android:id="@+id/nav_wk"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Webkit" />
+</menu>
+    </item>
+    <item android:title="Intent">
+        <menu>
+            <item
+                android:id="@+id/nav_ei"
+                android:title="Explicit Intent"
+                android:icon="@drawable/ic_menu_slideshow"/>
+
+            <item
+                android:id="@+id/nav_ii"
+                android:title="Implicit Intent"
+                android:icon="@drawable/ic_menu_slideshow"/>
+
+            <item
+                android:id="@+id/nav_gr"
+                android:title="Getting results từ Intents"
+                android:icon="@drawable/ic_menu_slideshow"/>
+        </menu>
+    </item>
+</menu>
