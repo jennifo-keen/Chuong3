@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:background="#000000"
         android:padding="10dp"
-        android:text="Chào mừng"
+        android:text="Xin chào bạn hello hello"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
